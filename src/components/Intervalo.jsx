@@ -51,6 +51,7 @@ function mapDispatchToProps(dispatch) {
       dispatch(action); //ira chamar todos os reducers e o estado ira mudar
     },
     alterarMax(novoNumero) {
+      // action creator -> action
       const action = alterarNumeroMax(novoNumero);
       dispatch(action);
     },
